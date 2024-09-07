@@ -2,7 +2,6 @@
 
 This project is a modern, AI-powered platform designed to help users explore career pathways based on their skills, interests, and experience levels. Powered by **Gemini AI**, this platform provides personalized recommendations and interactive skills assessment through a chat interface with an intelligent "Assesser."
 
-The platform can be viewed live at [🔗 carrier-ai.netlify.app](https://carrier-ai.netlify.app/).
 
 ## 🛠️ Key Features
 
