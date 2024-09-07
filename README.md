@@ -1,7 +1,3 @@
-Here is the detailed README file for your project, with emojis included:
-
----
-
 # 🚀 AI-Powered Career Pathway Platform 🌟
 
 This project is a modern, AI-powered platform designed to help users explore career pathways based on their skills, interests, and experience levels. Powered by **Gemini AI**, this platform provides personalized recommendations and interactive skills assessment through a chat interface with an intelligent "Assesser."
