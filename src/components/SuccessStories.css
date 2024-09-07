@@ -1,0 +1,25 @@
+/* src/components/SuccessStories.css */
+.success-stories {
+    padding: 50px;
+    background-color: #fffde7;
+    text-align: center;
+  }
+  
+  .success-stories h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .story-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,25 @@
+/* src/components/Blog.css */
+.blog {
+    padding: 50px;
+    background-color: #f3e5f5;
+    text-align: center;
+  }
+  
+  .blog h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .article-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

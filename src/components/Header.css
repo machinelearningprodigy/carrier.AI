@@ -1,0 +1,99 @@
+/* src/components/Header.css */
+.header {
+  background-color: #ffffff;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header.dark-mode {
+  background-color: #1a202c;
+  color: #ffffff;
+}
+
+.header .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+.header.dark-mode .logo {
+  color: #4da3ff;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.header nav ul li {
+  display: inline-block;
+}
+
+.header nav ul li a,
+.header nav ul li button {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header.dark-mode nav ul li a,
+.header.dark-mode nav ul li button {
+  color: #4da3ff;
+}
+
+.header nav ul li a:hover,
+.header nav ul li button:hover {
+  background-color: #f0f0f0;
+  color: #0056b3;
+}
+
+.header.dark-mode nav ul li a:hover,
+.header.dark-mode nav ul li button:hover {
+  background-color: #444;
+  color: #73b6ff;
+}
+
+.header nav ul li a.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.header.dark-mode nav ul li a.active {
+  background-color: #4da3ff;
+  color: #333;
+}
+
+.nav-icon {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.header.dark-mode .nav-icon {
+  color: #4da3ff;
+}
+
+.mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.mode-toggle:focus {
+  outline: none;
+}

@@ -1,0 +1,102 @@
+/* src/components/LearningResources.css */
+.learning-resources {
+  padding: 50px 0;
+  background-color: #ffffff;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.learning-resources.dark-mode {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.learning-resources h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.learning-resources.dark-mode h2 {
+  color: #e2e8f0;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.resource-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.learning-resources.dark-mode .resource-card {
+  background-color: #2d3748;
+  color: #e2e8f0;
+  border-color: #4a5568;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+}
+
+.resource-card h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+  transition: color 0.3s;
+}
+
+.learning-resources.dark-mode .resource-card h3 {
+  color: #a0aec0;
+}
+
+.resource-card p {
+  color: #7f8c8d;
+  margin-bottom: 15px;
+  transition: color 0.3s;
+}
+
+.learning-resources.dark-mode .resource-card p {
+  color: #cbd5e0;
+}
+
+.resource-card a {
+  display: inline-block;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.learning-resources.dark-mode .resource-card a {
+  color: #4299e1;
+  border-color: #4299e1;
+}
+
+.resource-card a:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.learning-resources.dark-mode .resource-card a:hover {
+  background-color: #4299e1;
+  color: #1a202c;
+}

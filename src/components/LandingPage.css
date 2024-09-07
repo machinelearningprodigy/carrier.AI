@@ -1,0 +1,77 @@
+/* src/components/LandingPage.css */
+.landing-page {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.landing-page.dark-mode {
+  background-color: #1a202c;
+  color: #f0f0f0;
+}
+
+.landing-page .content {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.landing-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s;
+}
+
+.landing-page.dark-mode h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.landing-page p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.landing-page.dark-mode p {
+  color: #bbb;
+}
+
+.landing-page button {
+  background-color: #283593;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.3s ease, transform 0.3s ease, color 0.3s;
+}
+
+.landing-page.dark-mode button {
+  background-color: #3f51b5;
+}
+
+.landing-page button:hover {
+  background-color: #1a237e;
+  transform: translateY(-3px);
+}
+
+.landing-page.dark-mode button:hover {
+  background-color: #5c6bc0;
+}
+
+.landing-page button svg {
+  margin-left: 10px;
+}
